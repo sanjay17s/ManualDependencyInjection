@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="861df011-eb15-4ecb-bb33-a72451f7fcfd" name="Changes" comment="manual dependency injection">
-      <change afterPath="$PROJECT_DIR$/src/ManualDependencyInjection/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ManualDependencyInjection/MyFactory.java" afterDir="false" />
+    <list default="true" id="861df011-eb15-4ecb-bb33-a72451f7fcfd" name="Changes" comment="refractor">
+      <change afterPath="$PROJECT_DIR$/src/services/KitchenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/RestaurantService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ManualDependencyInjection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManualDependencyInjection/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManualDependencyInjection/AImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +37,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Spring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Spring" />
       <method v="2">
@@ -58,6 +66,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714731623002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refractor">
+      <option name="closed" value="true" />
+      <created>1714732444734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714732444734</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="manual dependency injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="manual dependency injection" />
+    <MESSAGE value="refractor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refractor" />
   </component>
 </project>
